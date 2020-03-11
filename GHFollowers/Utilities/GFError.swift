@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Ross Lubinski on 2/27/20.
+//  Created by Ross Lubinski on 3/11/20.
 //  Copyright © 2020 Ross Lubinski. All rights reserved.
 //
 
