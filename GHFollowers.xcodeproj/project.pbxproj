@@ -37,6 +37,7 @@
 		BFB2F4DC240941F0001BA23B /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB2F4DB240941F0001BA23B /* GFAvatarImageView.swift */; };
 		BFBE84F7241C13F600CE60A5 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE84F6241C13F600CE60A5 /* Date+Ext.swift */; };
 		BFBE84F9241C143D00CE60A5 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBE84F8241C143D00CE60A5 /* String+Ext.swift */; };
+		BFC0D5452423C230005FEFE8 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0D5442423C230005FEFE8 /* GFTabBarController.swift */; };
 		BFC252BE24192F9800635697 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC252BD24192F9800635697 /* UserInfoVC.swift */; };
 		BFC252C02419381000635697 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC252BF2419381000635697 /* GFError.swift */; };
 		BFE54ADE2417E26C00CBDF1D /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE54ADD2417E26C00CBDF1D /* GFEmptyStateView.swift */; };
@@ -75,6 +76,7 @@
 		BFB2F4DB240941F0001BA23B /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		BFBE84F6241C13F600CE60A5 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		BFBE84F8241C143D00CE60A5 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		BFC0D5442423C230005FEFE8 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		BFC252BD24192F9800635697 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		BFC252BF2419381000635697 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		BFE54ADD2417E26C00CBDF1D /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		BF1462272406AE4900317B35 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				BFC0D5432423C1E7005FEFE8 /* TabBarControllers */,
 				BFE54ADC2417E21100CBDF1D /* Labels */,
 				BFE54ADB2417E1CD00CBDF1D /* ViewControllers */,
 				BFE54ADA2417E1B700CBDF1D /* ImageViews */,
@@ -213,6 +216,14 @@
 				BF1009A82422BCF9008A92D4 /* FavoriteCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		BFC0D5432423C1E7005FEFE8 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0D5442423C230005FEFE8 /* GFTabBarController.swift */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 		BFE54AD72417E17400CBDF1D /* Views */ = {
@@ -354,6 +365,7 @@
 				BFB2F4DA24094133001BA23B /* FollowerCell.swift in Sources */,
 				BF1009A92422BCF9008A92D4 /* FavoriteCell.swift in Sources */,
 				BF62A69623D89F6600EB3700 /* SceneDelegate.swift in Sources */,
+				BFC0D5452423C230005FEFE8 /* GFTabBarController.swift in Sources */,
 				BF2DBD15241A7435009B2B3E /* GFUserInfoHeaderVC.swift in Sources */,
 				BFC252C02419381000635697 /* GFError.swift in Sources */,
 				BF0D03982407EC8D00C8853B /* Follower.swift in Sources */,
